@@ -1,5 +1,5 @@
 import tailwindcss from '@tailwindcss/postcss';
-import vinext from 'vinext';
+import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -8,5 +8,5 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
-  plugins: [vinext()],
+  plugins: [react()],
 });
